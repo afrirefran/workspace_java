@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hola mundo");
+		System.out.println("2*3");
+		System.out.println(2*3);
+		System.out.printf("5 + 6 + 7 = %d", 5+6+7).println();
+		
+		int a = 1;
+		int b = 2;
+		int c = 3;
+		
+		System.out.println(a+b+c);
+
+	}
+
+}

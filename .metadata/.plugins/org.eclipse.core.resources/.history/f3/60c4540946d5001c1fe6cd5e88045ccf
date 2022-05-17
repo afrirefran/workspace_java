@@ -1,0 +1,19 @@
+package curso;
+
+public class Persona {
+
+	protected int id;
+	protected int edad;
+	protected int telefono;
+	
+
+	// constructor parametrizado (todos los par�metros)
+	public Persona(int id, int edad, int telefono) {
+		this.id = id;
+		this.edad = edad;
+		this.telefono = telefono;
+	}
+	
+	public void mostrarInfo() {
+	}
+}

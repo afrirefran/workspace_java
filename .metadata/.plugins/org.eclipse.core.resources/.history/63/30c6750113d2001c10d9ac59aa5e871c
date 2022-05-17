@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Ejercicio9Metodos {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Implementar m�todos restar, multiplicar y dividir. Tienen que devolver un entero
+		 * (int). Invocar los tres m�todos con los dos n�meros introducidos por el usuario
+		 * y mostrar el resultado por pantalla
+		 */
+		
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Introduzca el primer n�mero: ");
+		int numero1 = keyboard.nextInt();
+		
+		System.out.print("Introduzca el segundo n�mero: ");
+		int numero2 = keyboard.nextInt();
+		
+		public static int restar(int numero1, int numero2) {
+			int resultado = numero1 + numero2;
+			return resultado;
+		}
+		
+		public static int multiplicar(int numero1, int numero2) {
+			int resultado = numero1 + numero2;
+			return resultado;
+		}
+		
+		public static int dividir(int numero1, int numero2) {
+			int resultado = numero1 + numero2;
+			return resultado;
+		}
+		
+	}
+}
